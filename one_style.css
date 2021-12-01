@@ -1,0 +1,26 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    color:#000;
+    margin:0 auto ;
+}
+
+.intro > h1 {
+    text-align: center;
+    color: darkcyan;
+    
+}
+
+.cg{
+    display: flex;
+    margin: 10px 10px;
+    background-color: darkcyan;
+    padding: 10px;
+    color: #fff;
+}
+
+.cg > li> a{
+    color:#fff;
+}
