@@ -1,0 +1,107 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    color:#000;
+    margin:0 auto ;
+}
+
+.intro_bg{
+    background-image:url("resources/image/baner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500PX;
+}
+
+.searchArea{
+    width: 380px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+
+}
+
+.searchArea > form > input{
+    width: 335px;
+    height: 40px;
+    padding-left: 15px;
+    border:none;
+    color: gray;
+}
+
+.nav{
+    display: flex;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.intro > img{
+    margin-top: 10px;
+}
+.login{
+    margin-top: 30px;
+}
+
+.intro_text{
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_text > h3{
+    color: rgb(139, 219, 233);
+    font-size: 40px;
+    margin-top:20px;
+}
+
+.intro_text > h1{
+    color:#fff;
+    font-size: 100px;
+    text-decoration:underline;
+}
+
+.intro_text > h5{
+    color: #fff;
+    font-size: 23px;
+    font-weight: lighter;
+    margin-top:100px;
+}
+/* 푸터 */
+.footer{
+    border-top: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 30px 50px;
+}
+.footer li {
+    position: relative;
+    display: inline;
+    padding: 0 7px 0 10px;
+    white-space: nowrap;
+}
+
+.footer li :before{
+    content:'';
+    width: 1px;
+    height:12px;
+    background-color:#dbdbdb;
+    position: absolute;
+    left: 0; top: 2px;
+}
+
+.footer li:first-child :before{
+    width:0;
+}
+
+.footer address {
+    padding-top: 15px;
+}
