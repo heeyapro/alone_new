@@ -1,0 +1,21 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    color:#000;
+    margin:0 auto ;
+}
+
+.be {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.co > li {
+    display: inline;
+}
+
+.co{
+    background-color: beige;
+}
