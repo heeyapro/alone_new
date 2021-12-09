@@ -1,0 +1,49 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    color:#fff;
+    margin:0 auto ;
+    background-color: #000;
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+
+}
+
+.logo > i {
+    padding: 30px;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.category{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.category > li{
+    display:inline;
+    padding: 20px;
+}
+
+.category > :last-child, b{
+    background-color:rgb(241, 187, 7);
+    color: #000;
+}
+
+.welcome{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome > h1 {
+    font-size:45px;
+}
