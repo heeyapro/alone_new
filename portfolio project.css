@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'ChosunKm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     font-family: 'Noto Sans KR', sans-serif;
     list-style: none;
@@ -6,18 +20,17 @@
     color:#fff;
     margin:0 auto ;
     background-color: #000;
-    font-family: 'HeirofLightBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
-    font-weight: normal;
-
+    font-family: 'ChosunKm';
 }
 
 .logo > i {
-    padding: 30px;
+    border-bottom: solid 1px #fff;
+    margin-left: 40px;
+    font-family: 'Chosunilbo_myungjo';
 }
 
 .logo {
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 .category{
@@ -31,7 +44,7 @@
     padding: 20px;
 }
 
-.category > :last-child, b{
+.category > :last-child, b>a{
     background-color:rgb(241, 187, 7);
     color: #000;
 }
@@ -44,6 +57,50 @@
     height: 100%;
 }
 
-.welcome > h1 {
+.welcome > pre {
     font-size:45px;
+    font-weight: 1;
+    padding: 1px;
+}
+
+.parent {
+    height: 15em; /* 애니메이션 높이 */
+    overflow-y: hidden;
+    display: block;
+    margin-top: 10px;
+}
+.parent .child {
+    font-size: 2.0em;/* 애니메이션 높이 */
+    font-weight: bold;
+    line-height: 1;
+    animation-name: grow;
+    animation-duration: 2s;/* 애니메이션 시간 */
+}
+.parent .child > pre,span > a{
+    color: #8f8f8f;
+    font-family: 'Chosunilbo_myungjo';
+}
+.parent .child > span > a{
+    margin: 10px;
+    font-size: 0.75em;
+    border-bottom: solid 1px #8f8f8f;
+}
+
+.parent .child > pre{
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.parent .child > a{
+    font-size: 0.9em;
+    padding: 10px;
+    color: #8f8f8f;
+    font-family: 'Chosunilbo_myungjo';
+}
+
+
+/* 키프레임 애니메이션 */
+@keyframes grow {
+    from { transform: translateY(2.1em) }/* 애니메이션 높이 */
+    to { transform: translateY(0) }
 }
