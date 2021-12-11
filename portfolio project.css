@@ -23,25 +23,22 @@
     font-family: 'ChosunKm';
 }
 
-.logo > i {
-    border-bottom: solid 1px #fff;
-    margin-left: 40px;
-    font-family: 'Chosunilbo_myungjo';
+.logo_img{
+    position: absolute;
+    left: 67px;
+    top: 23px;
 }
 
-.logo {
-    margin-top: 18px;
-}
 
 .category{
     position: absolute;
-    top: 20px;
-    right: 100px;
+    top: 40px;
+    right: 0px;
 }
 
 .category > li{
     display:inline;
-    padding: 20px;
+    padding: 18px;
 }
 
 .category > :last-child, b>a{
@@ -76,31 +73,40 @@
     animation-name: grow;
     animation-duration: 2s;/* 애니메이션 시간 */
 }
-.parent .child > pre,span > a{
-    color: #8f8f8f;
-    font-family: 'Chosunilbo_myungjo';
-}
-.parent .child > span > a{
+
+.parent .child > pre {
     margin: 10px;
-    font-size: 0.75em;
-    border-bottom: solid 1px #8f8f8f;
-}
-
-.parent .child > pre{
-    padding: 10px;
-    font-size: 0.9em;
-}
-
-.parent .child > a{
-    font-size: 0.9em;
-    padding: 10px;
+    font-size: 0.6em;
     color: #8f8f8f;
     font-family: 'Chosunilbo_myungjo';
 }
 
+.k{
+    font-size: 10px;
+}
 
 /* 키프레임 애니메이션 */
 @keyframes grow {
     from { transform: translateY(2.1em) }/* 애니메이션 높이 */
     to { transform: translateY(0) }
+}
+
+.ca{
+    text-align: center;
+    position: absolute;
+    left: 29px;
+    top: 170px;
+}
+
+.m{
+    padding: 20px;
+}
+
+.b{
+    padding: 15px;
+}
+
+.b > a {
+    color:#8f8f8f;
+    border-bottom: solid 1px #8f8f8f;
 }
